@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class CancelForm extends StatefulWidget {
   final CancelBookingViewModel viewModel;

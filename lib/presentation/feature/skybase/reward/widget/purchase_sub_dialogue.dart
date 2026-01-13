@@ -1,8 +1,8 @@
 import 'package:domain/enum/subscription_level.dart';
 import 'package:domain/model/skyClubModels/subscription_type_domain.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/reward_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/reward_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 import 'package:intl/intl.dart';
 
 class PurchaseSubDialogue extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skyhome/screen/skyhome_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skyhome/screen/skyhome_mobile_portrait.dart';
 
 class SkyhomeMobileLandscape extends SkyhomeMobilePortrait {
   const SkyhomeMobileLandscape({required super.viewModel, super.key});

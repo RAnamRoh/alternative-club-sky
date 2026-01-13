@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/adaptive_util/adaptive_breakpoints.dart';
+import 'package:club_alt/presentation/base/adaptive_util/adaptive_breakpoints.dart';
 
 enum AdaptiveScreenType {
   mobile,

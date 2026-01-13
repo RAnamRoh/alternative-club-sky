@@ -2,9 +2,9 @@ import 'dart:math';
 
 import 'package:domain/model/skyClubModels/searched_flight_domain.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookform/bookform_view_model.dart';
-import 'package:sky_club/presentation/util/custom_date_formater.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/feature/bookform/bookform_view_model.dart';
+import 'package:club_alt/presentation/util/custom_date_formater.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 import '../../../common/skyClubWidgets/line_painter.dart';
 

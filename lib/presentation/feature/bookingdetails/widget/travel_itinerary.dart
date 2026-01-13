@@ -1,7 +1,7 @@
 import 'package:domain/model/skyClubModels/fare_rules_model.dart';
 import 'package:domain/model/skyClubModels/travel_itinerary_model.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/widget/travel_itinerary_tile.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/widget/travel_itinerary_tile.dart';
 
 import '../../../values/dimens.dart';
 import '../bookingdetails_view_model.dart';

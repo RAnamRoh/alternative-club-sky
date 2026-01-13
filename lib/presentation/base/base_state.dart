@@ -1,7 +1,7 @@
 import 'package:domain/exceptions/base_exception.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_route.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/base/base_route.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
 
 class BaseState {}
 

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:domain/model/genre.dart';
 import 'package:domain/model/movie_details.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/widget/network_image_view.dart';
-import 'package:sky_club/presentation/common/widget/rating_view.dart';
-import 'package:sky_club/presentation/feature/movieDetails/movie_details_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/widget/network_image_view.dart';
+import 'package:club_alt/presentation/common/widget/rating_view.dart';
+import 'package:club_alt/presentation/feature/movieDetails/movie_details_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class MovieDetailsUiMobilePortrait extends StatefulWidget {
   final MovieDetailsViewModel viewModel;

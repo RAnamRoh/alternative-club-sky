@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/home/binding/home_binding.dart';
-import 'package:sky_club/presentation/feature/home/home_view_model.dart';
-import 'package:sky_club/presentation/feature/home/route/home_argument.dart';
-import 'package:sky_club/presentation/feature/home/route/home_route.dart';
-import 'package:sky_club/presentation/feature/home/screen/home_ui_mobile_landscape.dart';
-import 'package:sky_club/presentation/feature/home/screen/home_ui_mobile_potrait.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/home/binding/home_binding.dart';
+import 'package:club_alt/presentation/feature/home/home_view_model.dart';
+import 'package:club_alt/presentation/feature/home/route/home_argument.dart';
+import 'package:club_alt/presentation/feature/home/route/home_route.dart';
+import 'package:club_alt/presentation/feature/home/screen/home_ui_mobile_landscape.dart';
+import 'package:club_alt/presentation/feature/home/screen/home_ui_mobile_potrait.dart';
 
 class HomeAdaptiveUi extends BaseAdaptiveUi<HomeArgument, HomeRoute> {
   const HomeAdaptiveUi({

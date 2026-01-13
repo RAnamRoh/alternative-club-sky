@@ -1,5 +1,5 @@
 import 'package:domain/model/skyClubModels/search_flight_details.dart';
-import 'package:sky_club/presentation/base/base_argument.dart';
+import 'package:club_alt/presentation/base/base_argument.dart';
 
 class SearchticketArgument extends BaseArgument {
   // int id;

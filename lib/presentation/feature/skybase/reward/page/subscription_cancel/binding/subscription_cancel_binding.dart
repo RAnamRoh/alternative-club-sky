@@ -1,5 +1,5 @@
-import 'package:sky_club/presentation/base/base_binding.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/page/subscription_cancel/subscription_cancel_view_model.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/page/subscription_cancel/subscription_cancel_view_model.dart';
 
 class SubscriptionCancelBinding extends BaseBinding {
   @override

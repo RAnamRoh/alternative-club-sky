@@ -1,12 +1,12 @@
 import 'package:data/sessionManager/user_session_manager.dart';
 import 'package:domain/repository/sky_auth_repository.dart';
 
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/feature/splash/route/splash_argument.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/feature/splash/route/splash_argument.dart';
 
 class SplashViewModel extends BaseViewModel<SplashArgument> {
 

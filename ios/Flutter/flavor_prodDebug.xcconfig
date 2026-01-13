@@ -3,5 +3,5 @@
 
 FLUTTER_TARGET=lib/main/main_flavor_prod.dart
 ASSET_PREFIX=flavor_prod
-BUNDLE_NAME=Sky Club
-BUNDLE_DISPLAY_NAME=Sky Club
+BUNDLE_NAME=Club Alt
+BUNDLE_DISPLAY_NAME=Club Alt

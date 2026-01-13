@@ -8,14 +8,14 @@ import 'package:domain/repository/booking_details_repository.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/page/ticket_cancel/route/ticket_cancel_argument.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/page/ticket_cancel/route/ticket_cancel_route.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/route/cancel_booking_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/page/ticket_cancel/route/ticket_cancel_argument.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/page/ticket_cancel/route/ticket_cancel_route.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/route/cancel_booking_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 class CancelBookingViewModel extends BaseViewModel<CancelBookingArgument> {
 

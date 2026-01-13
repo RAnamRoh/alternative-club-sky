@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/screen/reward_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/screen/reward_mobile_portrait.dart';
 
 class RewardMobileLandscape extends RewardMobilePortrait {
   const RewardMobileLandscape({required super.viewModel, super.key});

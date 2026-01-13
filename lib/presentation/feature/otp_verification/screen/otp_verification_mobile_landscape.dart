@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/otp_verification/screen/otp_verification_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/otp_verification/screen/otp_verification_mobile_portrait.dart';
 
 class OtpVerificationMobileLandscape extends OtpVerificationMobilePortrait {
   const OtpVerificationMobileLandscape({required super.viewModel, super.key});

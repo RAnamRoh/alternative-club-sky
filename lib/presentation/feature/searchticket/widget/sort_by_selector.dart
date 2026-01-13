@@ -1,9 +1,9 @@
 import 'package:domain/enum/ticket_filter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/base/screen_util/screen_util_builder.dart';
-import 'package:sky_club/presentation/feature/searchticket/searchticket_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/screen_util/screen_util_builder.dart';
+import 'package:club_alt/presentation/feature/searchticket/searchticket_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class SortBySelector extends StatelessWidget {
 

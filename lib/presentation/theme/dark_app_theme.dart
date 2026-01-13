@@ -1,8 +1,8 @@
 import 'dart:ui';
 
-import 'package:sky_club/presentation/theme/app_theme.dart';
-import 'package:sky_club/presentation/theme/color/app_colors.dart';
-import 'package:sky_club/presentation/theme/color/dark_app_colors.dart';
+import 'package:club_alt/presentation/theme/app_theme.dart';
+import 'package:club_alt/presentation/theme/color/app_colors.dart';
+import 'package:club_alt/presentation/theme/color/dark_app_colors.dart';
 
 class DarkAppTheme extends AppTheme {
   @override

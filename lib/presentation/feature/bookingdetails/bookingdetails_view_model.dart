@@ -7,14 +7,14 @@ import 'package:domain/model/skyClubModels/passenger_info_model.dart';
 import 'package:domain/model/skyClubModels/travel_itinerary_model.dart';
 import 'package:domain/repository/booking_details_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/route/bookingdetails_argument.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/route/cancel_booking_argument.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/route/cancel_booking_route.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/route/payment_web_view_argument.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/route/payment_web_view_route.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/route/bookingdetails_argument.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/route/cancel_booking_argument.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/route/cancel_booking_route.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/route/payment_web_view_argument.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/route/payment_web_view_route.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 class BookingdetailsViewModel extends BaseViewModel<BookingdetailsArgument> {
   final BookingDetailsRepository repository;

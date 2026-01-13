@@ -3,19 +3,19 @@
 import 'package:domain/repository/sky_auth_repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/feature/auth/validator/email_validator.dart';
-import 'package:sky_club/presentation/feature/auth/validator/password_validator.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/email_for_reset/route/email_for_reset_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/email_for_reset/route/email_for_reset_route.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/route/sky_signup_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/route/sky_signup_route.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/localization/text_id.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/feature/auth/validator/email_validator.dart';
+import 'package:club_alt/presentation/feature/auth/validator/password_validator.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/email_for_reset/route/email_for_reset_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/email_for_reset/route/email_for_reset_route.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/route/sky_signup_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/route/sky_signup_route.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/localization/text_id.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
 
 
 

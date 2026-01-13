@@ -10,13 +10,13 @@ import 'package:domain/enum/special_assistance.dart';
 import 'package:domain/model/country.dart';
 import 'package:domain/model/skyClubModels/passenger.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_date_picker.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_drop_down.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_text_field.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/searchable_form_drop_down.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/passenger_form.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_date_picker.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_drop_down.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_text_field.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/searchable_form_drop_down.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/passenger_form.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class ReusablePassengerForm extends StatefulWidget {
   final String title;

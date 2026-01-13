@@ -1,8 +1,8 @@
 import 'package:domain/model/app_language.dart';
 import 'package:domain/model/app_theme_mode.dart';
-import 'package:sky_club/presentation/app/app_viewmodel.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/settings/route/settings_argument.dart';
+import 'package:club_alt/presentation/app/app_viewmodel.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/settings/route/settings_argument.dart';
 
 class SettingsViewModel extends BaseViewModel<SettingsArgument> {
   SettingsViewModel({required this.appViewModel});

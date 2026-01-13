@@ -11,16 +11,16 @@ import 'package:domain/repository/book_form_repository.dart';
 import 'package:domain/util/logger.dart';
 import 'package:flutter/foundation.dart';
 import 'package:intl_phone_field/phone_number.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/auth/validator/email_validator.dart';
-import 'package:sky_club/presentation/feature/bookform/route/bookform_argument.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/route/payment_web_view_argument.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/route/payment_web_view_route.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
-import 'package:sky_club/presentation/util/value_notifier_map.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/auth/validator/email_validator.dart';
+import 'package:club_alt/presentation/feature/bookform/route/bookform_argument.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/route/payment_web_view_argument.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/route/payment_web_view_route.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/util/value_notifier_map.dart';
 
 class BookformViewModel extends BaseViewModel<BookformArgument> {
 

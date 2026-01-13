@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/movieDetails/screen/movie_details_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/movieDetails/screen/movie_details_mobile_portrait.dart';
 
 class MovieDetailsUiMobileLandscape extends MovieDetailsUiMobilePortrait {
   const MovieDetailsUiMobileLandscape({required super.viewModel, super.key});

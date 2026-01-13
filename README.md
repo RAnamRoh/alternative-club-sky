@@ -120,7 +120,7 @@ dart create_feature.dart feature_name
 ## Flutter
 
 In AndroidStudio Go to Edit > Find > Replace in Files (Ctrl + Shift + R) and replace the following
-`sky_club` with `your_app_name`, and `Sky Club` with `Your App Name`
+`club_alt` with `your_app_name`, and `Club Alt` with `Your App Name`
 
 ### Android
 
@@ -128,42 +128,42 @@ In AndroidStudio Go to Edit > Find > Replace in Files (Ctrl + Shift + R) and rep
 
 ```bash
 android {
-    namespace "com.skyclub365.sky_club"
+    namespace "com.clubalt.club_alt"
     
     defaultConfig {
-        applicationId "com.skyclub365.sky_club"
+        applicationId "com.clubalt.club_alt"
     }
     
     productFlavors {
     flavor_dev {
         dimension "env"
         applicationIdSuffix ".dev"
-        resValue "string", "app_name", "Sky Club Dev"
+        resValue "string", "app_name", "Club Alt Dev"
     }
     flavor_test {
         dimension "env"
         applicationIdSuffix ".test"
-        resValue "string", "app_name", "Sky Club Test"
+        resValue "string", "app_name", "Club Alt Test"
     }
     flavor_staging {
         dimension "env"
         applicationIdSuffix ".staging"
-        resValue "string", "app_name", "Sky Club Staging"
+        resValue "string", "app_name", "Club Alt Staging"
     }
     flavor_prod {
         dimension "env"
-        resValue "string", "app_name", "Sky Club"
+        resValue "string", "app_name", "Club Alt"
     }
 }
 }
 ```
 
-- Rename the `android/app/src/main/kotlin/com/skyclub365/sky_club` folder to your desired
+- Rename the `android/app/src/main/kotlin/com/clubalt/club_alt` folder to your desired
   package name.
 - Update the package declaration in the `MainActivity.kt` file to match the new folder name.
-    - For example, if the folder is renamed to `com/skyclub365/sky_club`, the package
+    - For example, if the folder is renamed to `com/clubalt/club_alt`, the package
       declaration
-      should be `package com.skyclub365.sky_club`.
+      should be `package com.clubalt.club_alt`.
 
 ### iOS
 

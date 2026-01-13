@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.sbu_europe.sky_club" "\0"
-            VALUE "FileDescription", "sky_club" "\0"
+            VALUE "CompanyName", "com.sbu_europe.club_alt" "\0"
+            VALUE "FileDescription", "club_alt" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sky_club" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.sbu_europe.sky_club. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sky_club.exe" "\0"
-            VALUE "ProductName", "sky_club" "\0"
+            VALUE "InternalName", "club_alt" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.sbu_europe.club_alt. All rights reserved." "\0"
+            VALUE "OriginalFilename", "club_alt.exe" "\0"
+            VALUE "ProductName", "club_alt" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

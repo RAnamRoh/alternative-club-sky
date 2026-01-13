@@ -1,6 +1,6 @@
 import 'package:domain/repository/sky_home_repository.dart';
-import 'package:sky_club/presentation/base/base_binding.dart';
-import 'package:sky_club/presentation/feature/otp_verification/otp_verification_view_model.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/feature/otp_verification/otp_verification_view_model.dart';
 
 class OtpVerificationBinding extends BaseBinding {
   @override

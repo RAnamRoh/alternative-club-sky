@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
 
 import '../../../../values/dimens.dart';
 

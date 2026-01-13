@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
   final VoidCallback? onNotificationPressed;
@@ -35,7 +35,7 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
             )
           : null,
       title: AssetImageView(
-        fileName: 'sky_club_logo2.svg',
+        fileName: 'club_alt_logo2.svg',
         height: Dimens.dimen_25,
         width: Dimens.dimen_100,
       ),

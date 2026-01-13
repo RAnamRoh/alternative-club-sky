@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/movie_list_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/settings/settings_adaptive_ui.dart';
-import 'package:sky_club/presentation/localization/generated/app_localizations.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/movie_list_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/settings/settings_adaptive_ui.dart';
+import 'package:club_alt/presentation/localization/generated/app_localizations.dart';
 
 enum NavigationItemType {
   movieList,

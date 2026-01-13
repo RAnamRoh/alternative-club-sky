@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/common_app_bar.dart';
-import 'package:sky_club/presentation/feature/bookform/bookform_view_model.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/common_app_bar.dart';
+import 'package:club_alt/presentation/feature/bookform/bookform_view_model.dart';
 
 import '../../../common/skyClubWidgets/drawer_list.dart';
 import '../../../navigation/route_path.dart';

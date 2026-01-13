@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/reset_password/widget/success_reset_dialogue.dart';
-import 'package:sky_club/presentation/feature/skybase/account/account_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/skybase/dashboard/dashboard_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/reward_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/cancel_sub_dialogue.dart';
-import 'package:sky_club/presentation/feature/skyhome/skyhome_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/reset_password/widget/success_reset_dialogue.dart';
+import 'package:club_alt/presentation/feature/skybase/account/account_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/skybase/dashboard/dashboard_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/reward_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/cancel_sub_dialogue.dart';
+import 'package:club_alt/presentation/feature/skyhome/skyhome_adaptive_ui.dart';
 
 enum SkyNavigationItemType {
   home,

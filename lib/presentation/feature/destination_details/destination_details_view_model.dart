@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/destination_details/route/destination_details_argument.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/destination_details/route/destination_details_argument.dart';
 
 class DestinationDetailsViewModel extends BaseViewModel<DestinationDetailsArgument> {
 

@@ -2,14 +2,14 @@ import 'package:domain/enum/country.dart';
 import 'package:domain/model/skyClubModels/sky_user.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_drop_down.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_text_field.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/mobile_form_text_field.dart';
-import 'package:sky_club/presentation/common/widget/common_widgets.dart';
-import 'package:sky_club/presentation/common/widget/primary_button.dart';
-import 'package:sky_club/presentation/feature/edit_profile/edit_profile_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_drop_down.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_text_field.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/mobile_form_text_field.dart';
+import 'package:club_alt/presentation/common/widget/common_widgets.dart';
+import 'package:club_alt/presentation/common/widget/primary_button.dart';
+import 'package:club_alt/presentation/feature/edit_profile/edit_profile_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class EditProfileMobilePortrait extends StatefulWidget {
   final SkyUser user;

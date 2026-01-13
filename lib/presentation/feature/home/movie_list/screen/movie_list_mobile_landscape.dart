@@ -1,11 +1,11 @@
 import 'package:domain/model/movie.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/common/widget/network_image_view.dart';
-import 'package:sky_club/presentation/common/widget/rating_view.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/screen/movie_list_mobile_portrait.dart';
-import 'package:sky_club/presentation/localization/extension/genre_localization_ext.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/common/widget/network_image_view.dart';
+import 'package:club_alt/presentation/common/widget/rating_view.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/screen/movie_list_mobile_portrait.dart';
+import 'package:club_alt/presentation/localization/extension/genre_localization_ext.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class MovieListUiMobileLandscape extends MovieListUiMobilePortrait {
   const MovieListUiMobileLandscape({required super.viewModel, super.key});

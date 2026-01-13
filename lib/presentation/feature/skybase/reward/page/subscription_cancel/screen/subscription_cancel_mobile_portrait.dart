@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/page/subscription_cancel/subscription_cancel_view_model.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/sub_cancel_screen.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/page/subscription_cancel/subscription_cancel_view_model.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/sub_cancel_screen.dart';
 
 class SubscriptionCancelMobilePortrait extends StatefulWidget {
   final SubscriptionCancelViewModel viewModel;

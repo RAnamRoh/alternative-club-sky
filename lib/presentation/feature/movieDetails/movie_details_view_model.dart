@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:domain/model/movie_details.dart';
 import 'package:domain/repository/movie_repository.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/movieDetails/route/movie_details_argument.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/movieDetails/route/movie_details_argument.dart';
 
 class MovieDetailsViewModel extends BaseViewModel<MovieDetailsArgument> {
   final MovieRepository movieRepository;

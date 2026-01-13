@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookform/screen/bookform_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/bookform/screen/bookform_mobile_portrait.dart';
 
 class BookformMobileLandscape extends BookformMobilePortrait {
   const BookformMobileLandscape({required super.viewModel, super.key});

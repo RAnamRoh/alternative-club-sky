@@ -1,6 +1,6 @@
 import 'package:domain/repository/sky_auth_repository.dart';
-import 'package:sky_club/presentation/base/base_binding.dart';
-import 'package:sky_club/presentation/feature/splash/splash_view_model.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/feature/splash/splash_view_model.dart';
 
 class SplashBinding extends BaseBinding {
   @override

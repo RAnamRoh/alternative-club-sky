@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/screen/sky_signup_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/screen/sky_signup_mobile_portrait.dart';
 
 class SkySignupMobileLandscape extends SkySignupMobilePortrait {
   const SkySignupMobileLandscape({required super.viewModel, super.key});

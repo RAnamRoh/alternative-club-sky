@@ -1,5 +1,5 @@
-import 'package:sky_club/presentation/localization/generated/app_localizations.dart';
-import 'package:sky_club/presentation/localization/text_id.dart';
+import 'package:club_alt/presentation/localization/generated/app_localizations.dart';
+import 'package:club_alt/presentation/localization/text_id.dart';
 
 abstract class UiText {
   TextId get textId;

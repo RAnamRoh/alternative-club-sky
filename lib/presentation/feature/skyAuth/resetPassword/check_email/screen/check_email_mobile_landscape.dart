@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/check_email/screen/check_email_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/check_email/screen/check_email_mobile_portrait.dart';
 
 class CheckEmailMobileLandscape extends CheckEmailMobilePortrait {
   const CheckEmailMobileLandscape({required super.viewModel, super.key});

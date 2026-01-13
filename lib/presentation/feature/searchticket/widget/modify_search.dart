@@ -1,6 +1,6 @@
 import 'package:domain/enum/travel_way.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/searchticket/searchticket_view_model.dart';
+import 'package:club_alt/presentation/feature/searchticket/searchticket_view_model.dart';
 
 class ModifySearch extends StatelessWidget {
 

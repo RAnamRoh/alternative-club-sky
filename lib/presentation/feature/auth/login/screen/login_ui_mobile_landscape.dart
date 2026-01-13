@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/feature/auth/login/screen/login_ui_mobile_portrait.dart';
-import 'package:sky_club/presentation/values/app_assets.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/feature/auth/login/screen/login_ui_mobile_portrait.dart';
+import 'package:club_alt/presentation/values/app_assets.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class LoginUiMobileLandscape extends LoginUiMobilePortrait {
   const LoginUiMobileLandscape({required super.viewModel, super.key});

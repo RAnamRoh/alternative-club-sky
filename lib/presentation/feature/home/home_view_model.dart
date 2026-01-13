@@ -1,9 +1,9 @@
 import 'package:domain/repository/auth_repository.dart';
 import 'package:domain/util/logger.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/home/bottom_navigation_item_type.dart';
-import 'package:sky_club/presentation/feature/home/route/home_argument.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/home/bottom_navigation_item_type.dart';
+import 'package:club_alt/presentation/feature/home/route/home_argument.dart';
 
 class HomeViewModel extends BaseViewModel<HomeArgument> {
   final ValueNotifier<String?> _userId = ValueNotifier(null);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skybase/account/screen/account_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skybase/account/screen/account_mobile_portrait.dart';
 
 class AccountMobileLandscape extends AccountMobilePortrait {
   const AccountMobileLandscape({required super.viewModel, super.key});

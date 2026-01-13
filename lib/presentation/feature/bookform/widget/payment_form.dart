@@ -1,16 +1,16 @@
 import 'package:domain/enum/passenger_form_error.dart';
 import 'package:domain/model/skyClubModels/booking_contact_details.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_text_field.dart';
-import 'package:sky_club/presentation/feature/bookform/bookform_view_model.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/booking_contact_details_form.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/flight_route_card.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/payment_content.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/redeem_point_content.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/short_booking_summary.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/voucher_content.dart';
-import 'package:sky_club/presentation/util/big_text.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_text_field.dart';
+import 'package:club_alt/presentation/feature/bookform/bookform_view_model.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/booking_contact_details_form.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/flight_route_card.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/payment_content.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/redeem_point_content.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/short_booking_summary.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/voucher_content.dart';
+import 'package:club_alt/presentation/util/big_text.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class PaymentForm extends StatelessWidget {
   final BookformViewModel viewModel;

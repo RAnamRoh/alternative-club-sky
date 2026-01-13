@@ -6,11 +6,11 @@ import 'package:domain/exceptions/session_exception.dart';
 import 'package:domain/util/logger.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_argument.dart';
-import 'package:sky_club/presentation/base/base_route.dart';
-import 'package:sky_club/presentation/base/base_state.dart';
-import 'package:sky_club/presentation/localization/text_id.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/base/base_argument.dart';
+import 'package:club_alt/presentation/base/base_route.dart';
+import 'package:club_alt/presentation/base/base_state.dart';
+import 'package:club_alt/presentation/localization/text_id.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
 import 'package:http/http.dart';
 
 abstract class BaseViewModel<A extends BaseArgument> {

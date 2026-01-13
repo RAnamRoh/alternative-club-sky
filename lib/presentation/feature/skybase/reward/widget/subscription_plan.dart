@@ -2,13 +2,13 @@ import 'package:domain/enum/subscription_bill.dart';
 import 'package:domain/enum/subscription_level.dart';
 import 'package:domain/model/skyClubModels/subscription_type_domain.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/common/widget/common_widgets.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/reward_view_model.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/plan_tile.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/purchase_sub_dialogue.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/common/widget/common_widgets.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/reward_view_model.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/plan_tile.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/purchase_sub_dialogue.dart';
 
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class SubscriptionPlan extends StatelessWidget {
   final RewardViewModel viewModel;

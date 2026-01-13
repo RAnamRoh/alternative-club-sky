@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/theme/color/app_colors.dart';
-import 'package:sky_club/presentation/theme/text_theme/text_theme.dart';
+import 'package:club_alt/presentation/theme/color/app_colors.dart';
+import 'package:club_alt/presentation/theme/text_theme/text_theme.dart';
 
 abstract class AppTheme {
   abstract final AppColors appColors;

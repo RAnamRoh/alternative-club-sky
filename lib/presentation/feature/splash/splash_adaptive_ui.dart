@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/splash/binding/splash_binding.dart';
-import 'package:sky_club/presentation/feature/splash/route/splash_argument.dart';
-import 'package:sky_club/presentation/feature/splash/splash_view_model.dart';
-import 'package:sky_club/presentation/feature/splash/route/splash_route.dart';
-import 'package:sky_club/presentation/feature/splash/screen/splash_mobile_portrait.dart';
-import 'package:sky_club/presentation/feature/splash/screen/splash_mobile_landscape.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/splash/binding/splash_binding.dart';
+import 'package:club_alt/presentation/feature/splash/route/splash_argument.dart';
+import 'package:club_alt/presentation/feature/splash/splash_view_model.dart';
+import 'package:club_alt/presentation/feature/splash/route/splash_route.dart';
+import 'package:club_alt/presentation/feature/splash/screen/splash_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/splash/screen/splash_mobile_landscape.dart';
 
 class SplashAdaptiveUi extends BaseAdaptiveUi<SplashArgument, SplashRoute> {
   const SplashAdaptiveUi({super.argument, super.key});

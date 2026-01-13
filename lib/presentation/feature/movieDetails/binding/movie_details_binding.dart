@@ -1,6 +1,6 @@
 import 'package:domain/repository/movie_repository.dart';
-import 'package:sky_club/presentation/base/base_binding.dart';
-import 'package:sky_club/presentation/feature/movieDetails/movie_details_view_model.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/feature/movieDetails/movie_details_view_model.dart';
 
 class MovieDetailsBinding extends BaseBinding {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/widget/primary_button.dart';
-import 'package:sky_club/presentation/common/widget/secondary_button.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/check_email/check_email_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/widget/primary_button.dart';
+import 'package:club_alt/presentation/common/widget/secondary_button.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/check_email/check_email_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class CheckEmailMobilePortrait extends StatefulWidget {
   final CheckEmailViewModel viewModel;

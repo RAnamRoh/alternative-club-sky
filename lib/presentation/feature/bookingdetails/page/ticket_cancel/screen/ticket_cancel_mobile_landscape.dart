@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/page/ticket_cancel/screen/ticket_cancel_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/page/ticket_cancel/screen/ticket_cancel_mobile_portrait.dart';
 
 class TicketCancelMobileLandscape extends TicketCancelMobilePortrait {
   const TicketCancelMobileLandscape({required super.viewModel, super.key});

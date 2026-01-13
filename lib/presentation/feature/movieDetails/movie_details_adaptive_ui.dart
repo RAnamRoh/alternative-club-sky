@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/movieDetails/binding/movie_details_binding.dart';
-import 'package:sky_club/presentation/feature/movieDetails/movie_details_view_model.dart';
-import 'package:sky_club/presentation/feature/movieDetails/route/movie_details_argument.dart';
-import 'package:sky_club/presentation/feature/movieDetails/route/movie_details_route.dart';
-import 'package:sky_club/presentation/feature/movieDetails/screen/movie_details_mobile_landscape.dart';
-import 'package:sky_club/presentation/feature/movieDetails/screen/movie_details_mobile_portrait.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/movieDetails/binding/movie_details_binding.dart';
+import 'package:club_alt/presentation/feature/movieDetails/movie_details_view_model.dart';
+import 'package:club_alt/presentation/feature/movieDetails/route/movie_details_argument.dart';
+import 'package:club_alt/presentation/feature/movieDetails/route/movie_details_route.dart';
+import 'package:club_alt/presentation/feature/movieDetails/screen/movie_details_mobile_landscape.dart';
+import 'package:club_alt/presentation/feature/movieDetails/screen/movie_details_mobile_portrait.dart';
 
 class MovieDetailsAdaptiveUi
     extends BaseAdaptiveUi<MovieDetailsArgument, MovieDetailsRoute> {

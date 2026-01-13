@@ -1,6 +1,6 @@
 import 'package:domain/repository/booking_details_repository.dart';
-import 'package:sky_club/presentation/base/base_binding.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
 
 class CancelBookingBinding extends BaseBinding {
   @override

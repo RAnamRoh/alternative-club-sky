@@ -72,7 +72,7 @@ class DataModule {
     await _diModule.registerSingleton<SearchTicketApiClient>(SearchTicketApiClient());
     await _diModule.registerSingleton<RewardApiClient>(RewardApiClient());
     await _diModule.registerSingleton<BookingDetailsApiClient>(BookingDetailsApiClient());
-    await _diModule.registerSingleton<SkyClubApiClient>(SkyClubApiClient());
+    await _diModule.registerSingleton<ClubAltApiClient>(ClubAltApiClient());
     await _diModule.registerSingleton<LocationApiClient>(LocationApiClient());
   }
 
@@ -81,7 +81,7 @@ class DataModule {
     await _diModule.unregisterSingleton<SearchTicketApiClient>();
     await _diModule.unregisterSingleton<RewardApiClient>();
     await _diModule.unregisterSingleton<BookingDetailsApiClient>();
-    await _diModule.unregisterSingleton<SkyClubApiClient>();
+    await _diModule.unregisterSingleton<ClubAltApiClient>();
     await _diModule.unregisterSingleton<LocationApiClient>();
   }
 
@@ -90,7 +90,7 @@ class DataModule {
     final searchTicketApiClient = await _diModule.resolve<SearchTicketApiClient>();
     final rewardApiClient = await _diModule.resolve<RewardApiClient>();
     final bookingDetailsApiClient = await _diModule.resolve<BookingDetailsApiClient>();
-    final skyClubApiClient = await _diModule.resolve<SkyClubApiClient>();
+    final clubAltApiClient = await _diModule.resolve<ClubAltApiClient>();
     final locationApiClient = await _diModule.resolve<LocationApiClient>();
 
     await _diModule.registerSingleton<MovieApiService>(
@@ -98,31 +98,31 @@ class DataModule {
     );
 
     await _diModule.registerSingleton<SearchTicketApiService>(
-      SearchTicketApiServiceImpl(apiClient: skyClubApiClient),
+      SearchTicketApiServiceImpl(apiClient: clubAltApiClient),
     );
 
     await _diModule.registerSingleton<RewardApiService>(
-      RewardApiServiceImpl(apiClient: skyClubApiClient),
+      RewardApiServiceImpl(apiClient: clubAltApiClient),
     );
 
     await _diModule.registerSingleton<BookingDetailsApiService>(
-      BookingDetailsApiServiceImpl(apiClient: skyClubApiClient),
+      BookingDetailsApiServiceImpl(apiClient: clubAltApiClient),
     );
 
     await _diModule.registerSingleton<SkyHomeApiService>(
-      SkyHomeApiServiceImpl(apiClient: skyClubApiClient, locationApiClient: locationApiClient),
+      SkyHomeApiServiceImpl(apiClient: clubAltApiClient, locationApiClient: locationApiClient),
     );
 
     await _diModule.registerSingleton<ExploreApiService>(
-      ExploreApiServiceImpl(apiClient: skyClubApiClient),
+      ExploreApiServiceImpl(apiClient: clubAltApiClient),
     );
 
     await _diModule.registerSingleton<AuthApiService>(
-      AuthApiServiceImpl(apiClient: skyClubApiClient),
+      AuthApiServiceImpl(apiClient: clubAltApiClient),
     );
 
     await _diModule.registerSingleton<BookFormApiService>(
-      BookFormApiServiceImpl(apiClient: skyClubApiClient),
+      BookFormApiServiceImpl(apiClient: clubAltApiClient),
     );
 
 

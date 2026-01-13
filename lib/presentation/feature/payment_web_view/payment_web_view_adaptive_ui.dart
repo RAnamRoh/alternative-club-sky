@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/binding/payment_web_view_binding.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/route/payment_web_view_argument.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/payment_web_view_view_model.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/route/payment_web_view_route.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/screen/payment_web_view_mobile_portrait.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/screen/payment_web_view_mobile_landscape.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/binding/payment_web_view_binding.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/route/payment_web_view_argument.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/payment_web_view_view_model.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/route/payment_web_view_route.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/screen/payment_web_view_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/screen/payment_web_view_mobile_landscape.dart';
 
 class PaymentWebViewAdaptiveUi extends BaseAdaptiveUi<PaymentWebViewArgument, PaymentWebViewRoute> {
   const PaymentWebViewAdaptiveUi({super.argument, super.key});

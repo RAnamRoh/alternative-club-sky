@@ -1,4 +1,4 @@
-import 'package:sky_club/presentation/base/base_argument.dart';
+import 'package:club_alt/presentation/base/base_argument.dart';
 
 class AccountArgument extends BaseArgument {
   // int id;

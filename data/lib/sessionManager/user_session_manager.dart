@@ -1,6 +1,7 @@
 import 'package:data/local/shared_preference/entity/sky_auth_shared_pref_entity.dart';
 import 'package:data/local/shared_preference/entity/sky_user_shared_pref_entity.dart';
 import 'package:data/remote/api_client/sky_club_api_client.dart';
+
 import 'package:data/remote/api_service/auth_api_service.dart';
 import 'package:data/remote/api_service/auth_api_service_impl.dart';
 import 'package:data/remote/response/auth/login_response.dart';
@@ -15,7 +16,7 @@ class UserSessionManager {
 
   SkyAuthSharedPrefEntity? _authEntity;
   SkyUserSharedPrefEntity? _userEntity;
-  AuthApiService apiService = AuthApiServiceImpl(apiClient: SkyClubApiClient());
+  AuthApiService apiService = AuthApiServiceImpl(apiClient: ClubAltApiClient());
 
   Future<void> initializeSharedPreferences() async {
     _authEntity = await SkyAuthSharedPrefEntity.example.getFromSharedPref() as SkyAuthSharedPrefEntity;

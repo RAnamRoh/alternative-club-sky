@@ -5,7 +5,7 @@ import 'package:domain/enum/sex.dart';
 import 'package:domain/model/skyClubModels/booking_contact_details.dart';
 import 'package:domain/model/skyClubModels/passenger.dart';
 import 'package:domain/model/skyClubModels/searched_flight_domain.dart';
-//import 'package:sky_club/presentation/util/date_to_string.dart';
+//import 'package:club_alt/presentation/util/date_to_string.dart';
 
 
 class TicketBookingRequest {

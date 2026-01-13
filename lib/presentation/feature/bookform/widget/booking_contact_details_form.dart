@@ -3,11 +3,11 @@ import 'package:domain/enum/passenger_form_error.dart';
 import 'package:domain/model/skyClubModels/booking_contact_details.dart';
 import 'package:domain/model/skyClubModels/sky_user.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/form_text_field.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/mobile_form_text_field.dart';
-import 'package:sky_club/presentation/feature/bookform/bookform_view_model.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/form_text_field.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/mobile_form_text_field.dart';
+import 'package:club_alt/presentation/feature/bookform/bookform_view_model.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class BookingContactDetailsForm extends StatefulWidget {
   final Function(BookingContactDetails) onFormChanged;

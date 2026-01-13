@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_route.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/check_email/check_email_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/check_email/route/check_email_argument.dart';
+import 'package:club_alt/presentation/base/base_route.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/check_email/check_email_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/check_email/route/check_email_argument.dart';
 
 class CheckEmailRoute extends BaseRoute<CheckEmailArgument> {
   @override

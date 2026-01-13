@@ -7,14 +7,14 @@ import 'package:domain/model/skyClubModels/search_flight_details.dart';
 import 'package:domain/model/skyClubModels/sky_user.dart';
 import 'package:domain/repository/sky_home_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/otp_verification/route/otp_verification_argument.dart';
-import 'package:sky_club/presentation/feature/otp_verification/route/otp_verification_route.dart';
-import 'package:sky_club/presentation/feature/searchticket/route/searchticket_argument.dart';
-import 'package:sky_club/presentation/feature/searchticket/route/searchticket_route.dart';
-import 'package:sky_club/presentation/feature/skyhome/route/skyhome_argument.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/otp_verification/route/otp_verification_argument.dart';
+import 'package:club_alt/presentation/feature/otp_verification/route/otp_verification_route.dart';
+import 'package:club_alt/presentation/feature/searchticket/route/searchticket_argument.dart';
+import 'package:club_alt/presentation/feature/searchticket/route/searchticket_route.dart';
+import 'package:club_alt/presentation/feature/skyhome/route/skyhome_argument.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 class SkyhomeViewModel extends BaseViewModel<SkyhomeArgument> {
   // final AirportApiService _airportApiService = AirportApiService();

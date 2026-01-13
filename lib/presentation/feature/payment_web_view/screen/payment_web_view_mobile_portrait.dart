@@ -1,7 +1,7 @@
 import 'package:domain/enum/redirect_page.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/payment_web_view_view_model.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/payment_web_view_view_model.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class PaymentWebViewMobilePortrait extends StatefulWidget {

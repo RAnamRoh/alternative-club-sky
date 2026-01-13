@@ -1,7 +1,7 @@
 import 'package:domain/model/app_theme_mode.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/theme/dark_app_theme.dart';
-import 'package:sky_club/presentation/theme/light_app_theme.dart';
+import 'package:club_alt/presentation/theme/dark_app_theme.dart';
+import 'package:club_alt/presentation/theme/light_app_theme.dart';
 
 extension AppThemeModeExtension on AppThemeMode {
   ThemeData get themeData {

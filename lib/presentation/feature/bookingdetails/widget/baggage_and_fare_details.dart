@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/bookingdetails_view_model.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/widget/bag_detail_tile.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/bookingdetails_view_model.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/widget/bag_detail_tile.dart';
 
 import '../../../values/dimens.dart';
 

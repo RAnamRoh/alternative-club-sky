@@ -6,15 +6,15 @@ import 'package:data/repository/app_repository_impl.dart';
 import 'package:domain/di/di_module.dart';
 import 'package:domain/util/logger.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/app/app_viewmodel.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/base/screen_util/screen_util_builder.dart';
-import 'package:sky_club/presentation/localization/extension/language_localization_ext.dart';
-import 'package:sky_club/presentation/localization/generated/app_localizations.dart';
-import 'package:sky_club/presentation/navigation/app_router.dart';
-import 'package:sky_club/presentation/theme/dark_app_theme.dart';
-import 'package:sky_club/presentation/theme/extension/app_theme_mode_ext.dart';
-import 'package:sky_club/presentation/theme/light_app_theme.dart';
+import 'package:club_alt/presentation/app/app_viewmodel.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/base/screen_util/screen_util_builder.dart';
+import 'package:club_alt/presentation/localization/extension/language_localization_ext.dart';
+import 'package:club_alt/presentation/localization/generated/app_localizations.dart';
+import 'package:club_alt/presentation/navigation/app_router.dart';
+import 'package:club_alt/presentation/theme/dark_app_theme.dart';
+import 'package:club_alt/presentation/theme/extension/app_theme_mode_ext.dart';
+import 'package:club_alt/presentation/theme/light_app_theme.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});

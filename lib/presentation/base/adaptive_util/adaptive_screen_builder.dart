@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/adaptive_util/platform_utils.dart';
+import 'package:club_alt/presentation/base/adaptive_util/platform_utils.dart';
 
 class AdaptiveScreenBuilder extends StatelessWidget {
   final ContentBuilder mobilePortraitContentBuilder;

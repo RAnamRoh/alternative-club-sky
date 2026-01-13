@@ -8,22 +8,22 @@ import 'package:domain/exceptions/session_exception.dart';
 import 'package:domain/util/logger.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:sky_club/presentation/base/adaptive_util/adaptive_screen_builder.dart';
-import 'package:sky_club/presentation/base/base_argument.dart';
-import 'package:sky_club/presentation/base/base_binding.dart';
-import 'package:sky_club/presentation/base/base_route.dart';
-import 'package:sky_club/presentation/base/base_state.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/common/widget/session_error_dialogue.dart';
-import 'package:sky_club/presentation/feature/auth/login/route/login_argument.dart';
-import 'package:sky_club/presentation/feature/auth/login/route/login_route.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
-import 'package:sky_club/presentation/navigation/app_router.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/base/adaptive_util/adaptive_screen_builder.dart';
+import 'package:club_alt/presentation/base/base_argument.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/base/base_route.dart';
+import 'package:club_alt/presentation/base/base_state.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/common/widget/session_error_dialogue.dart';
+import 'package:club_alt/presentation/feature/auth/login/route/login_argument.dart';
+import 'package:club_alt/presentation/feature/auth/login/route/login_route.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/navigation/app_router.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
 
 abstract class BaseAdaptiveUi<A extends BaseArgument, R extends BaseRoute<A>>
     extends StatefulWidget {

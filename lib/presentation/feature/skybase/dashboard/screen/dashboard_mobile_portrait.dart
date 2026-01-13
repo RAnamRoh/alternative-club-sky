@@ -1,14 +1,14 @@
 import 'package:domain/model/skyClubModels/booking.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/common_app_bar.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/drawer_list.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/common_app_bar.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/drawer_list.dart';
 
-import 'package:sky_club/presentation/feature/skybase/dashboard/dashboard_view_model.dart';
-import 'package:sky_club/presentation/feature/skybase/dashboard/widgets/booking_card.dart';
-import 'package:sky_club/presentation/feature/skybase/dashboard/widgets/record_tile.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/feature/skybase/dashboard/dashboard_view_model.dart';
+import 'package:club_alt/presentation/feature/skybase/dashboard/widgets/booking_card.dart';
+import 'package:club_alt/presentation/feature/skybase/dashboard/widgets/record_tile.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 
 

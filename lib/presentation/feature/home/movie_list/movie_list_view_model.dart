@@ -2,11 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:domain/model/movie.dart';
 import 'package:domain/model/movie_list_by_category.dart';
 import 'package:domain/repository/movie_repository.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/route/movie_list_argument.dart';
-import 'package:sky_club/presentation/feature/movieDetails/route/movie_details_argument.dart';
-import 'package:sky_club/presentation/feature/movieDetails/route/movie_details_route.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/route/movie_list_argument.dart';
+import 'package:club_alt/presentation/feature/movieDetails/route/movie_details_argument.dart';
+import 'package:club_alt/presentation/feature/movieDetails/route/movie_details_route.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 class MovieListViewModel extends BaseViewModel<MovieListArgument> {
   final MovieRepository movieRepository;

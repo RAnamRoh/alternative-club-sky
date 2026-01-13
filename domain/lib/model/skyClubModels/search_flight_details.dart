@@ -2,7 +2,7 @@ import 'package:domain/enum/seat_class.dart';
 import 'package:domain/enum/travel_way.dart';
 import 'package:domain/model/skyClubModels/airport.dart';
 import 'package:domain/model/skyClubModels/multi_city_journey.dart';
-import 'package:sky_club/presentation/util/date_to_string.dart';
+import 'package:club_alt/presentation/util/date_to_string.dart';
 import 'package:data/remote/request/search_flight_ticket_request.dart';
 
 class SearchFlightDetails {

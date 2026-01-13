@@ -1,13 +1,13 @@
 import 'package:buttons_tabbar/buttons_tabbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/bookingdetails_view_model.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/widget/baggage_and_fare_details.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/widget/fare_rules.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/widget/passenger_info.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/widget/travel_itinerary.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/bookingdetails_view_model.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/widget/baggage_and_fare_details.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/widget/fare_rules.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/widget/passenger_info.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/widget/travel_itinerary.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 
 

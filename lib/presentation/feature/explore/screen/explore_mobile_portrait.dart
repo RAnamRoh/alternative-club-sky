@@ -2,20 +2,20 @@ import 'package:domain/model/skyClubModels/faq.dart';
 import 'package:domain/model/skyClubModels/travelLocation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/base/screen_util/screen_util_builder.dart';
-import 'package:sky_club/presentation/common/extension/string_ext.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/common_app_bar.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/drawer_list.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/image_tile_card.dart';
-import 'package:sky_club/presentation/feature/explore/explore_view_model.dart';
-import 'package:sky_club/presentation/feature/explore/widget/discover_location.dart';
-import 'package:sky_club/presentation/feature/explore/widget/dynamic_location_tile.dart';
-import 'package:sky_club/presentation/feature/explore/widget/faq_section.dart';
-import 'package:sky_club/presentation/feature/explore/widget/location_tiles.dart';
-import 'package:sky_club/presentation/feature/explore/widget/trending_destination.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/base/screen_util/screen_util_builder.dart';
+import 'package:club_alt/presentation/common/extension/string_ext.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/common_app_bar.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/drawer_list.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/image_tile_card.dart';
+import 'package:club_alt/presentation/feature/explore/explore_view_model.dart';
+import 'package:club_alt/presentation/feature/explore/widget/discover_location.dart';
+import 'package:club_alt/presentation/feature/explore/widget/dynamic_location_tile.dart';
+import 'package:club_alt/presentation/feature/explore/widget/faq_section.dart';
+import 'package:club_alt/presentation/feature/explore/widget/location_tiles.dart';
+import 'package:club_alt/presentation/feature/explore/widget/trending_destination.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 
 

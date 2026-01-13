@@ -1,5 +1,5 @@
 import 'package:domain/model/skyClubModels/bookedFlightInfo.dart';
-import 'package:sky_club/presentation/base/base_argument.dart';
+import 'package:club_alt/presentation/base/base_argument.dart';
 
 class TicketCancelArgument extends BaseArgument {
   // int id;

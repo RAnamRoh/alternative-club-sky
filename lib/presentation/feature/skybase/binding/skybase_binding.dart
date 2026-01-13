@@ -1,4 +1,4 @@
-import 'package:sky_club/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
 
 import '../skybase_view_model.dart';
 

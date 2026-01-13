@@ -1,9 +1,9 @@
 import 'package:domain/model/skyClubModels/passenger_info_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/common/clipper/booingDetailsBody_clipper.dart';
-import 'package:sky_club/presentation/common/clipper/bookingDetailHeader_clipper.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/clipper/booingDetailsBody_clipper.dart';
+import 'package:club_alt/presentation/common/clipper/bookingDetailHeader_clipper.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 
 

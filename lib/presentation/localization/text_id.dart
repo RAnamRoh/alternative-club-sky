@@ -1,4 +1,4 @@
-import 'package:sky_club/presentation/localization/generated/app_localizations.dart';
+import 'package:club_alt/presentation/localization/generated/app_localizations.dart';
 
 abstract class TextId {
   String getLocalizedText(AppLocalizations localizations);

@@ -3,17 +3,17 @@ import 'dart:math';
 import 'package:domain/enum/travel_way.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/common_app_bar.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/feature/skyhome/skyhome_view_model.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/drawer_list.dart';
-import 'package:sky_club/presentation/feature/skyhome/widget/flight_date_selector.dart';
-import 'package:sky_club/presentation/feature/skyhome/widget/flight_selector.dart';
-import 'package:sky_club/presentation/feature/skyhome/widget/multi_city_flight_selector.dart';
-import 'package:sky_club/presentation/feature/skyhome/widget/seat_class_drop_down.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/common_app_bar.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/feature/skyhome/skyhome_view_model.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/drawer_list.dart';
+import 'package:club_alt/presentation/feature/skyhome/widget/flight_date_selector.dart';
+import 'package:club_alt/presentation/feature/skyhome/widget/flight_selector.dart';
+import 'package:club_alt/presentation/feature/skyhome/widget/multi_city_flight_selector.dart';
+import 'package:club_alt/presentation/feature/skyhome/widget/seat_class_drop_down.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class SkyhomeMobilePortrait extends StatefulWidget {
   final SkyhomeViewModel viewModel;
@@ -215,7 +215,7 @@ class SkyhomeMobilePortraitState extends BaseUiState<SkyhomeMobilePortrait> {
                   // 60% of screen height
                   width: screenWidth,
                   child: const AssetImageView(
-                    fileName: 'sky_club_background.png',
+                    fileName: 'club_alt_background.png',
                     fit: BoxFit.cover,
                   ),
                 ),

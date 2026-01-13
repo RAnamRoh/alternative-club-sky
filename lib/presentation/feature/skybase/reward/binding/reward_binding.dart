@@ -1,5 +1,5 @@
 import 'package:domain/repository/reward_repository.dart';
-import 'package:sky_club/presentation/base/base_binding.dart';
+import 'package:club_alt/presentation/base/base_binding.dart';
 
 import '../reward_view_model.dart';
 

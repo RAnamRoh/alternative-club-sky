@@ -48,7 +48,7 @@ String get featureViewModelFile =>
 String get featureAdaptiveUiFile =>
     '$featurePath/${featurePathName}_adaptive_ui.dart';
 
-const String packageName = 'package:sky_club';
+const String packageName = 'package:club_alt';
 
 void main(List<String> arguments) {
   String? inputFeatureName = '';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class FormDropDown<T> extends StatelessWidget {
   final String label;

@@ -2,11 +2,11 @@ import 'package:domain/model/skyClubModels/offer_domain.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/base/screen_util/screen_util_builder.dart';
-import 'package:sky_club/presentation/common/widget/primary_button.dart';
-import 'package:sky_club/presentation/feature/explore/explore_view_model.dart';
-import 'package:sky_club/presentation/feature/explore/util/json_text_converter.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/screen_util/screen_util_builder.dart';
+import 'package:club_alt/presentation/common/widget/primary_button.dart';
+import 'package:club_alt/presentation/feature/explore/explore_view_model.dart';
+import 'package:club_alt/presentation/feature/explore/util/json_text_converter.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 
 

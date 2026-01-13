@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/common_app_bar.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/drawer_list.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/reward_view_model.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/subscribed_plan.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/subscription_plan.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/common_app_bar.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/drawer_list.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/reward_view_model.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/subscribed_plan.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/subscription_plan.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
 
 
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/home/screen/home_ui_mobile_potrait.dart';
+import 'package:club_alt/presentation/feature/home/screen/home_ui_mobile_potrait.dart';
 
 class HomeUiMobileLandscape extends HomeUiMobilePortrait {
   const HomeUiMobileLandscape({required super.viewModel, super.key});

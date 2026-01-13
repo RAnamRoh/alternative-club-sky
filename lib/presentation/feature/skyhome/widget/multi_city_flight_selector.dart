@@ -1,9 +1,9 @@
 import 'package:domain/model/skyClubModels/airport.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skyhome/skyhome_view_model.dart';
-import 'package:sky_club/presentation/feature/skyhome/widget/airport_list_bottom_sheet.dart';
-import 'package:sky_club/presentation/util/date_to_string.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/feature/skyhome/skyhome_view_model.dart';
+import 'package:club_alt/presentation/feature/skyhome/widget/airport_list_bottom_sheet.dart';
+import 'package:club_alt/presentation/util/date_to_string.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class MultiCityFlightSelector extends StatelessWidget {
   final SkyhomeViewModel viewModel;

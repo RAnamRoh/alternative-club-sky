@@ -3,16 +3,16 @@ import 'package:data/sessionManager/user_session_manager.dart';
 import 'package:domain/model/skyClubModels/sky_user.dart';
 import 'package:domain/repository/sky_auth_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/edit_profile/route/edit_profile_argument.dart';
-import 'package:sky_club/presentation/feature/edit_profile/route/edit_profile_route.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_route.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
-import 'package:sky_club/presentation/feature/skybase/account/route/account_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/edit_profile/route/edit_profile_argument.dart';
+import 'package:club_alt/presentation/feature/edit_profile/route/edit_profile_route.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_route.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
+import 'package:club_alt/presentation/feature/skybase/account/route/account_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
 
 class AccountViewModel extends BaseViewModel<AccountArgument> {
 

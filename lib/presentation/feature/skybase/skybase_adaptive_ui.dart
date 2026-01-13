@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/skybase/binding/skybase_binding.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/skybase_view_model.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/feature/skybase/screen/skybase_mobile_portrait.dart';
-import 'package:sky_club/presentation/feature/skybase/screen/skybase_mobile_landscape.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/skybase/binding/skybase_binding.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/skybase_view_model.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/feature/skybase/screen/skybase_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skybase/screen/skybase_mobile_landscape.dart';
 
 class SkybaseAdaptiveUi extends BaseAdaptiveUi<SkybaseArgument, SkybaseRoute> {
   const SkybaseAdaptiveUi({super.argument, super.key});

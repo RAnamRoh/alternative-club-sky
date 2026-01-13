@@ -3,8 +3,8 @@ import 'package:domain/util/logger.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:sky_club/main/flavors.dart';
-import 'package:sky_club/presentation/app/app.dart';
+import 'package:club_alt/main/flavors.dart';
+import 'package:club_alt/presentation/app/app.dart';
 
 void appMain({required AppFlavor appFlavor}) async {
   F.appFlavor = appFlavor;

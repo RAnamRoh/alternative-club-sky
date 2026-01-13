@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/feature/destination_details/destination_details_view_model.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/feature/destination_details/destination_details_view_model.dart';
 
 class DestinationDetailsMobilePortrait extends StatefulWidget {
   final DestinationDetailsViewModel viewModel;

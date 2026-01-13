@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/payment_web_view/screen/payment_web_view_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/payment_web_view/screen/payment_web_view_mobile_portrait.dart';
 
 class PaymentWebViewMobileLandscape extends PaymentWebViewMobilePortrait {
 

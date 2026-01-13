@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/check_email/route/check_email_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_route.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/check_email/route/check_email_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/resetPassword/reset_password/route/reset_password_route.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_argument.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_login/route/sky_login_route.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 

@@ -1,14 +1,14 @@
 import 'package:domain/repository/auth_repository.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/feature/auth/login/route/login_argument.dart';
-import 'package:sky_club/presentation/feature/auth/validator/email_validator.dart';
-import 'package:sky_club/presentation/feature/auth/validator/password_validator.dart';
-import 'package:sky_club/presentation/feature/home/route/home_argument.dart';
-import 'package:sky_club/presentation/feature/home/route/home_route.dart';
-import 'package:sky_club/presentation/localization/text_id.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/feature/auth/login/route/login_argument.dart';
+import 'package:club_alt/presentation/feature/auth/validator/email_validator.dart';
+import 'package:club_alt/presentation/feature/auth/validator/password_validator.dart';
+import 'package:club_alt/presentation/feature/home/route/home_argument.dart';
+import 'package:club_alt/presentation/feature/home/route/home_route.dart';
+import 'package:club_alt/presentation/localization/text_id.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
 
 class LoginViewModel extends BaseViewModel<LoginArgument> {
   final AuthRepository authRepository;

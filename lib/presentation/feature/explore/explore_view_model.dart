@@ -2,9 +2,9 @@ import 'package:domain/model/skyClubModels/offer_domain.dart';
 import 'package:domain/model/skyClubModels/travelLocation.dart';
 import 'package:domain/repository/explore_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/explore/route/explore_argument.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/explore/route/explore_argument.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 class ExploreViewModel extends BaseViewModel<ExploreArgument> {
 

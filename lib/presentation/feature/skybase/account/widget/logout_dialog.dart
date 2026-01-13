@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/common/widget/primary_button.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/common/widget/primary_button.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class LogoutDialog extends StatelessWidget {
   final VoidCallback onDone;
@@ -68,7 +68,7 @@ class LogoutDialog extends StatelessWidget {
             width: Dimens.dimen_3,
           )),
       child: AssetImageView(
-        fileName: 'sky_club_symbol.svg',
+        fileName: 'club_alt_symbol.svg',
         height: 20,
         width: 20,
       ),

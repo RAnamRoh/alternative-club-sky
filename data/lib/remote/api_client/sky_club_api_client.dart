@@ -4,7 +4,7 @@ import 'package:data/remote/api_client/api_client.dart';
 import 'package:data/sessionManager/user_session_manager.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-class SkyClubApiClient extends ApiClient {
+class ClubAltApiClient extends ApiClient {
   @override
   
   String get baseUrl => dotenv.env['API_BASE_URL']!;

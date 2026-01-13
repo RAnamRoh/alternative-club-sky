@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/binding/movie_list_binding.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/movie_list_view_model.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/route/movie_list_argument.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/route/movie_list_route.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/screen/movie_list_mobile_landscape.dart';
-import 'package:sky_club/presentation/feature/home/movie_list/screen/movie_list_mobile_portrait.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/binding/movie_list_binding.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/movie_list_view_model.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/route/movie_list_argument.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/route/movie_list_route.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/screen/movie_list_mobile_landscape.dart';
+import 'package:club_alt/presentation/feature/home/movie_list/screen/movie_list_mobile_portrait.dart';
 
 class MovieListAdaptiveUi
     extends BaseAdaptiveUi<MovieListArgument, MovieListRoute> {

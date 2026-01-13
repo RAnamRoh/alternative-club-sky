@@ -2,8 +2,8 @@ import 'package:domain/model/skyClubModels/fare_rules_model.dart';
 import 'package:domain/model/skyClubModels/travel_itinerary_model.dart';
 import 'package:flutter/material.dart';
 
-import 'package:sky_club/presentation/common/clipper/booingDetailsBody_clipper.dart';
-import 'package:sky_club/presentation/common/clipper/bookingDetailHeader_clipper.dart';
+import 'package:club_alt/presentation/common/clipper/booingDetailsBody_clipper.dart';
+import 'package:club_alt/presentation/common/clipper/bookingDetailHeader_clipper.dart';
 
 import '../../../util/date_to_string.dart';
 import '../../../values/dimens.dart';

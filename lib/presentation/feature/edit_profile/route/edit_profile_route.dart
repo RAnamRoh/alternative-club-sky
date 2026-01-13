@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_route.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
-import 'package:sky_club/presentation/feature/edit_profile/edit_profile_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/edit_profile/route/edit_profile_argument.dart';
+import 'package:club_alt/presentation/base/base_route.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/feature/edit_profile/edit_profile_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/edit_profile/route/edit_profile_argument.dart';
 
 class EditProfileRoute extends BaseRoute<EditProfileArgument> {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/screen/bookingdetails_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/screen/bookingdetails_mobile_portrait.dart';
 
 class BookingdetailsMobileLandscape extends BookingdetailsMobilePortrait {
   const BookingdetailsMobileLandscape({required super.viewModel, super.key, required super.bookintId});

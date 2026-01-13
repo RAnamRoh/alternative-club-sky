@@ -5,11 +5,11 @@ import 'package:domain/model/skyClubModels/booking_stats.dart';
 import 'package:domain/repository/booking_details_repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/route/bookingdetails_argument.dart';
-import 'package:sky_club/presentation/feature/bookingdetails/route/bookingdetails_route.dart';
-import 'package:sky_club/presentation/feature/skybase/dashboard/route/dashboard_argument.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/route/bookingdetails_argument.dart';
+import 'package:club_alt/presentation/feature/bookingdetails/route/bookingdetails_route.dart';
+import 'package:club_alt/presentation/feature/skybase/dashboard/route/dashboard_argument.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 class DashboardViewModel extends BaseViewModel<DashboardArgument> {
 

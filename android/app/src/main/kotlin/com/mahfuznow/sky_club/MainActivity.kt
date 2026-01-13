@@ -1,4 +1,4 @@
-package com.skyclub365.sky_club
+package com.clubalt.club_alt
 
 import io.flutter.embedding.android.FlutterActivity
 

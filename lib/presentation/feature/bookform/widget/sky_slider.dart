@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookform/bookform_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/feature/bookform/bookform_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class SkySlider extends StatelessWidget {
   final BookformViewModel viewModel;

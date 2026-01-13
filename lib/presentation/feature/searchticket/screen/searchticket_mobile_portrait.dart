@@ -4,14 +4,14 @@ import 'package:domain/enum/seat_class.dart';
 import 'package:domain/model/skyClubModels/airport.dart';
 import 'package:domain/model/skyClubModels/search_flight_details.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/feature/searchticket/searchticket_view_model.dart';
-import 'package:sky_club/presentation/feature/searchticket/widget/filter_sheet.dart';
-import 'package:sky_club/presentation/feature/searchticket/widget/modify_search.dart';
-import 'package:sky_club/presentation/feature/searchticket/widget/ticket_tile.dart';
-import 'package:sky_club/presentation/util/date_to_string.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/feature/searchticket/searchticket_view_model.dart';
+import 'package:club_alt/presentation/feature/searchticket/widget/filter_sheet.dart';
+import 'package:club_alt/presentation/feature/searchticket/widget/modify_search.dart';
+import 'package:club_alt/presentation/feature/searchticket/widget/ticket_tile.dart';
+import 'package:club_alt/presentation/util/date_to_string.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 import '../widget/flight_path_painter.dart';
 

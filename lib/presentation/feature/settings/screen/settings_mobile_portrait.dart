@@ -1,11 +1,11 @@
 import 'package:domain/model/app_language.dart';
 import 'package:domain/model/app_theme_mode.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/feature/settings/screen/widgets/language_settings.dart';
-import 'package:sky_club/presentation/feature/settings/screen/widgets/theme_settings.dart';
-import 'package:sky_club/presentation/feature/settings/settings_view_model.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/feature/settings/screen/widgets/language_settings.dart';
+import 'package:club_alt/presentation/feature/settings/screen/widgets/theme_settings.dart';
+import 'package:club_alt/presentation/feature/settings/settings_view_model.dart';
 
 class SettingsMobilePortrait extends StatefulWidget {
   final SettingsViewModel viewModel;

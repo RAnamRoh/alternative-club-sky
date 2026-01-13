@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skyhome/skyhome_view_model.dart';
-import 'package:sky_club/presentation/util/debouncer.dart';
+import 'package:club_alt/presentation/feature/skyhome/skyhome_view_model.dart';
+import 'package:club_alt/presentation/util/debouncer.dart';
 
 import 'airport_card.dart';
 

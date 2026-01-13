@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/widget/cancel_form.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/widget/cancel_form.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class CancelBookingMobilePortrait extends StatefulWidget {
   final CancelBookingViewModel viewModel;

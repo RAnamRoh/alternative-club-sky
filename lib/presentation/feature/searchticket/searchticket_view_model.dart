@@ -6,11 +6,11 @@ import 'package:domain/model/skyClubModels/search_flight_details.dart';
 import 'package:domain/model/skyClubModels/searched_flight_domain.dart';
 import 'package:domain/repository/search_ticket_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/bookform/route/bookform_argument.dart';
-import 'package:sky_club/presentation/feature/bookform/route/bookform_route.dart';
-import 'package:sky_club/presentation/feature/searchticket/route/searchticket_argument.dart';
-import 'package:sky_club/presentation/util/value_notifier_list.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/bookform/route/bookform_argument.dart';
+import 'package:club_alt/presentation/feature/bookform/route/bookform_route.dart';
+import 'package:club_alt/presentation/feature/searchticket/route/searchticket_argument.dart';
+import 'package:club_alt/presentation/util/value_notifier_list.dart';
 
 import 'package:data/remote/request/search_flight_ticket_request.dart';
 

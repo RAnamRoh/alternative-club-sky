@@ -3,5 +3,5 @@
 
 FLUTTER_TARGET=lib/main/main_flavor_test.dart
 ASSET_PREFIX=flavor_test
-BUNDLE_NAME=Sky Club Test
-BUNDLE_DISPLAY_NAME=Sky Club Test
+BUNDLE_NAME=Club Alt Test
+BUNDLE_DISPLAY_NAME=Club Alt Test

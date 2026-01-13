@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/skybase/screen/skybase_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/skybase/screen/skybase_mobile_portrait.dart';
 
 class SkybaseMobileLandscape extends SkybaseMobilePortrait {
   const SkybaseMobileLandscape({required super.viewModel, super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/settings/screen/settings_mobile_portrait.dart';
-import 'package:sky_club/presentation/feature/settings/screen/widgets/language_settings.dart';
-import 'package:sky_club/presentation/feature/settings/screen/widgets/theme_settings.dart';
+import 'package:club_alt/presentation/feature/settings/screen/settings_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/settings/screen/widgets/language_settings.dart';
+import 'package:club_alt/presentation/feature/settings/screen/widgets/theme_settings.dart';
 
 class SettingsMobileLandscape extends SettingsMobilePortrait {
   const SettingsMobileLandscape({required super.viewModel, super.key});

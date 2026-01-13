@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/skyClubWidgets/image_tile_card.dart';
+import 'package:club_alt/presentation/common/skyClubWidgets/image_tile_card.dart';
 import 'package:domain/model/skyClubModels/travelLocation.dart';
 
 class DynamicLocationTiles extends StatelessWidget {

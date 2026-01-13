@@ -1,7 +1,7 @@
 
 import 'package:domain/model/skyClubModels/airport.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class AirportCard extends StatelessWidget {
   final Airport airport;

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/feature/explore/route/explore_argument.dart';
-import 'package:sky_club/presentation/feature/explore/route/explore_route.dart';
-import 'package:sky_club/presentation/feature/searchticket/route/searchticket_argument.dart';
-import 'package:sky_club/presentation/feature/searchticket/route/searchticket_route.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/feature/skyhome/route/skyhome_argument.dart';
-import 'package:sky_club/presentation/feature/skyhome/route/skyhome_route.dart';
-import 'package:sky_club/presentation/feature/skyhome/skyhome_view_model.dart';
-import 'package:sky_club/presentation/navigation/app_router.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/feature/explore/route/explore_argument.dart';
+import 'package:club_alt/presentation/feature/explore/route/explore_route.dart';
+import 'package:club_alt/presentation/feature/searchticket/route/searchticket_argument.dart';
+import 'package:club_alt/presentation/feature/searchticket/route/searchticket_route.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/feature/skyhome/route/skyhome_argument.dart';
+import 'package:club_alt/presentation/feature/skyhome/route/skyhome_route.dart';
+import 'package:club_alt/presentation/feature/skyhome/skyhome_view_model.dart';
+import 'package:club_alt/presentation/navigation/app_router.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
 
 class DrawerList extends StatelessWidget {
 
@@ -40,7 +40,7 @@ class DrawerList extends StatelessWidget {
       child: Row(
         children: [
           SvgPicture.asset(
-            'assets/images/sky_club_logo.svg',
+            'assets/images/club_alt_logo.svg',
             width: 100,
             height: 25,
           ),

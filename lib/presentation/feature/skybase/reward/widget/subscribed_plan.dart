@@ -1,12 +1,12 @@
 import 'package:domain/enum/subscription_level.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/reward_view_model.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/cancel_sub_dialogue.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/upgrade_plan.dart';
-import 'package:sky_club/presentation/util/date_to_string.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/reward_view_model.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/cancel_sub_dialogue.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/upgrade_plan.dart';
+import 'package:club_alt/presentation/util/date_to_string.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class SubscribedPlan extends StatelessWidget {
   final RewardViewModel viewModel;

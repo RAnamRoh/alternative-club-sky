@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sky_club/presentation/base/screen_util/screen_util_builder.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/base/screen_util/screen_util_builder.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
 
 import '../../../../values/dimens.dart';
 
@@ -30,7 +30,7 @@ class CancelSubDialogue extends StatelessWidget {
             width: Dimens.dimen_3,
           )),
       child: AssetImageView(
-        fileName: 'sky_club_symbol.svg',
+        fileName: 'club_alt_symbol.svg',
         height: Dimens.dimen_20.h,
         width: Dimens.dimen_20.w,
       ),

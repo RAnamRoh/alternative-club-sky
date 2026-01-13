@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/edit_profile/screen/edit_profile_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/edit_profile/screen/edit_profile_mobile_portrait.dart';
 
 class EditProfileMobileLandscape extends EditProfileMobilePortrait {
 

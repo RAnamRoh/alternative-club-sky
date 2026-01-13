@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/auth/login/binding/login_binding.dart';
-import 'package:sky_club/presentation/feature/auth/login/login_view_model.dart';
-import 'package:sky_club/presentation/feature/auth/login/route/login_argument.dart';
-import 'package:sky_club/presentation/feature/auth/login/route/login_route.dart';
-import 'package:sky_club/presentation/feature/auth/login/screen/login_ui_mobile_landscape.dart';
-import 'package:sky_club/presentation/feature/auth/login/screen/login_ui_mobile_portrait.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/auth/login/binding/login_binding.dart';
+import 'package:club_alt/presentation/feature/auth/login/login_view_model.dart';
+import 'package:club_alt/presentation/feature/auth/login/route/login_argument.dart';
+import 'package:club_alt/presentation/feature/auth/login/route/login_route.dart';
+import 'package:club_alt/presentation/feature/auth/login/screen/login_ui_mobile_landscape.dart';
+import 'package:club_alt/presentation/feature/auth/login/screen/login_ui_mobile_portrait.dart';
 
 class LoginAdaptiveUi extends BaseAdaptiveUi<LoginArgument, LoginRoute> {
   const LoginAdaptiveUi({super.key});

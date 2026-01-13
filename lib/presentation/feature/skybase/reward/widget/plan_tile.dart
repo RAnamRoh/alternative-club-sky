@@ -2,9 +2,9 @@ import 'package:domain/enum/subscription_level.dart';
 import 'package:domain/model/skyClubModels/subscription_type_domain.dart';
 import 'package:domain/model/skyClubModels/user_subscription_domain.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/common/extension/string_ext.dart';
-import 'package:sky_club/presentation/feature/skybase/reward/widget/subscription_plan.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/common/extension/string_ext.dart';
+import 'package:club_alt/presentation/feature/skybase/reward/widget/subscription_plan.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 import '../../../../common/widget/primary_button.dart';
 

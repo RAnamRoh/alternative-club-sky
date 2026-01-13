@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/destination_details/screen/destination_details_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/destination_details/screen/destination_details_mobile_portrait.dart';
 
 class DestinationDetailsMobileLandscape extends DestinationDetailsMobilePortrait {
   const DestinationDetailsMobileLandscape({required super.viewModel, super.key});

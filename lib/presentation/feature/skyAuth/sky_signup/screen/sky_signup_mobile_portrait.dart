@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/widget/common_widgets.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/sky_signup_view_model.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/widget/custom_checkbox.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/widget/mobile_number_field.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/widget/signup_email_text_field.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/widget/signup_mobile_text_field.dart';
-import 'package:sky_club/presentation/feature/skyAuth/sky_signup/widget/signup_name_text_field.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/widget/common_widgets.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/sky_signup_view_model.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/widget/custom_checkbox.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/widget/mobile_number_field.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/widget/signup_email_text_field.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/widget/signup_mobile_text_field.dart';
+import 'package:club_alt/presentation/feature/skyAuth/sky_signup/widget/signup_name_text_field.dart';
 
 import '../../../../values/dimens.dart';
 import '../../sky_login/widget/social_button.dart';

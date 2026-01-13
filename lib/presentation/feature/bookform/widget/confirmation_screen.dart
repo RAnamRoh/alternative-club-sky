@@ -1,11 +1,11 @@
 import 'package:domain/model/skyClubModels/search_flight_ticket.dart';
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/feature/bookform/bookform_view_model.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/confirmSecreenWidgets/flight_summary.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/confirmSecreenWidgets/order_success_tile.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/flight_route_card.dart';
-import 'package:sky_club/presentation/feature/bookform/widget/short_booking_summary.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/feature/bookform/bookform_view_model.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/confirmSecreenWidgets/flight_summary.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/confirmSecreenWidgets/order_success_tile.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/flight_route_card.dart';
+import 'package:club_alt/presentation/feature/bookform/widget/short_booking_summary.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 
 

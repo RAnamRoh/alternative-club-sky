@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_ui_state.dart';
-import 'package:sky_club/presentation/common/widget/asset_image_view.dart';
-import 'package:sky_club/presentation/feature/splash/splash_view_model.dart';
-import 'package:sky_club/presentation/values/dimens.dart';
+import 'package:club_alt/presentation/base/base_ui_state.dart';
+import 'package:club_alt/presentation/common/widget/asset_image_view.dart';
+import 'package:club_alt/presentation/feature/splash/splash_view_model.dart';
+import 'package:club_alt/presentation/values/dimens.dart';
 
 class SplashMobilePortrait extends StatefulWidget {
   final SplashViewModel viewModel;
@@ -20,7 +20,7 @@ class SplashMobilePortraitState extends BaseUiState<SplashMobilePortrait> {
       body: Center(
         child: Padding(
           padding: EdgeInsets.all(Dimens.dimen_20),
-          child: const AssetImageView(fileName: 'sky_club_logo.svg', height: 100, width: 100,),
+          child: const AssetImageView(fileName: 'club_alt_logo.svg', height: 100, width: 100,),
         ),
       )
     );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/theme/color/dark_app_colors.dart';
-import 'package:sky_club/presentation/theme/color/light_app_colors.dart';
+import 'package:club_alt/presentation/theme/color/dark_app_colors.dart';
+import 'package:club_alt/presentation/theme/color/light_app_colors.dart';
 
 abstract class AppColors {
   abstract Brightness brightness;

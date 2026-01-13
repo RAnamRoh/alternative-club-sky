@@ -8,13 +8,13 @@ import 'package:domain/repository/sky_auth_repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl_phone_field/phone_number.dart';
-import 'package:sky_club/presentation/base/base_viewmodel.dart';
-import 'package:sky_club/presentation/common/extension/context_ext.dart';
-import 'package:sky_club/presentation/feature/auth/validator/email_validator.dart';
-import 'package:sky_club/presentation/feature/edit_profile/route/edit_profile_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_argument.dart';
-import 'package:sky_club/presentation/feature/skybase/route/skybase_route.dart';
-import 'package:sky_club/presentation/localization/ui_text.dart';
+import 'package:club_alt/presentation/base/base_viewmodel.dart';
+import 'package:club_alt/presentation/common/extension/context_ext.dart';
+import 'package:club_alt/presentation/feature/auth/validator/email_validator.dart';
+import 'package:club_alt/presentation/feature/edit_profile/route/edit_profile_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_argument.dart';
+import 'package:club_alt/presentation/feature/skybase/route/skybase_route.dart';
+import 'package:club_alt/presentation/localization/ui_text.dart';
 
 class EditProfileViewModel extends BaseViewModel<EditProfileArgument> {
 

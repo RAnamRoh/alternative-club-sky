@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/binding/cancel_booking_binding.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/route/cancel_booking_argument.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/route/cancel_booking_route.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/screen/cancel_booking_mobile_portrait.dart';
-import 'package:sky_club/presentation/feature/cancel_booking/screen/cancel_booking_mobile_landscape.dart';
+import 'package:club_alt/presentation/base/base_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/binding/cancel_booking_binding.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/route/cancel_booking_argument.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/cancel_booking_view_model.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/route/cancel_booking_route.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/screen/cancel_booking_mobile_portrait.dart';
+import 'package:club_alt/presentation/feature/cancel_booking/screen/cancel_booking_mobile_landscape.dart';
 
 class CancelBookingAdaptiveUi extends BaseAdaptiveUi<CancelBookingArgument, CancelBookingRoute> {
   const CancelBookingAdaptiveUi({super.argument, super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sky_club/presentation/base/base_route.dart';
-import 'package:sky_club/presentation/feature/home/home_adaptive_ui.dart';
-import 'package:sky_club/presentation/feature/home/route/home_argument.dart';
-import 'package:sky_club/presentation/navigation/route_path.dart';
+import 'package:club_alt/presentation/base/base_route.dart';
+import 'package:club_alt/presentation/feature/home/home_adaptive_ui.dart';
+import 'package:club_alt/presentation/feature/home/route/home_argument.dart';
+import 'package:club_alt/presentation/navigation/route_path.dart';
 
 class HomeRoute extends BaseRoute<HomeArgument> {
   @override
